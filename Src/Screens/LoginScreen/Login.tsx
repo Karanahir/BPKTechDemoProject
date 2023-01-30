@@ -75,6 +75,7 @@ export default function Login({navigation}) {
           console.log('Res', response.data);
           AsyncStorage.setItem(Constant.isLogin, 'true');
           AsyncStorage.setItem(Constant.user, JSON.stringify(response.data));
+          navigation.navigate('TabNavigation');
         })
         .catch(function (error) {
           console.log('error', error);
