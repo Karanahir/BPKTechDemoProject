@@ -17,7 +17,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   itemView: {
-    marginLeft: '25%',
     flexDirection: 'column',
     justifyContent: 'center',
   },
